@@ -1,0 +1,264 @@
+body {background-color:#ffffff;
+background-repeat:no-repeat;
+background-position:center center;
+background-attachment:fixed;
+width: 100%;
+	
+}
+
+
+h1{text-align:center;
+font-family: 'Lato', sans-serif;;
+letter-spacing:1.5px;
+color:#CCBA98;}
+/*background-color: #d3d3d3;}*/
+
+
+h2{
+	
+	text-align:left;
+	font-family:Arial, sans-serif;
+	letter-spacing:1.5px;
+	color:#C5C2A2;
+background-color:#ffffff;}
+
+
+
+h3{
+	text-align: center;
+	font-family: Arial;
+	color: #BAAE8B;
+}
+
+p {
+text-align:center;
+font-family:Georgia, serif;
+font-size:14px;
+font-style:normal;
+font-weight:normal;
+background-color:white;
+color: #A39884
+}
+
+.details { 
+font-family: Arial, sans-serif;
+font-size: 10px;
+color: #BAAE8B;
+}
+
+
+
+.imgstyle{
+     
+	border-radius: 4px;
+	width: 256px;
+	height: 256px;
+	border: 1px solid #ddd;
+	padding: 5px;
+    margin: inherit;
+	
+}
+
+
+
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #F6F4EB;
+  font-family: 'Lato', sans-serif;;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+    font-weight: bold;
+	font-family: 'Lato', sans-serif;;
+  color: #BBB598;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;;
+}
+
+/* Dropdown button */
+.dropdown .products {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;;
+  border: none;
+  outline: none;
+  color: #BBB598;
+  padding: 14px 16px;
+  background-color: #F6F4EB;
+}
+
+.navbar a:hover, .dropdown:hover .products {
+  background-color: #F6F4EB;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #BBB598;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+ font-weight: bold;
+
+}
+
+/* Adds a background color to dropdown on hover */
+.dropdown-content a:hover {
+  background-color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  font-family: 'Lato', sans-serif;;
+}
+
+
+/* add search bar at top right of the page inside the navbar*/
+.navbar-right input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 14px;
+}
+/* add cart icon  at top right of the page inside the navbar*/
+.navbar-right1 {
+	position:absolute;
+	 margin-top: 3px;
+  margin-right: 16px;
+	margin-left: -60px;
+}
+
+ .icon {
+font-size:48px;
+    size:180px; 
+    top: 60px;
+    left: 1350px;
+    z-index: 2;
+}
+ .navbar-right {float: right;}
+.background_image {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+    width: 40%;
+    height: 35%;
+}
+
+/* Bottom right text */
+.text-block {
+	font-family: 'Lato', sans-serif;;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+  color: #C3C69B;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* contact */
+footer {
+    background-color: #F6F4EB;
+    letter-spacing:1px;
+    color: #CDC79B;
+}
+
+ 
+/* contact */
+
+
+h2 {
+    color: #B6A763;
+	font-family: 'Lato', sans-serif;
+	font-size: 20pt;
+}
+
+
+.contactus{}
+
+
+/* product card style*/
+
+h3{
+	color: #BAAE8B
+	font-family: 'Lato', sans-serif;;
+	font-weight: strong;
+	margin: auto;	
+}
+
+
+.row {
+	display:inline-flex;
+}
+
+.column {
+	display: inline-block
+		padding: 5px;
+	box-sizing: border-box;
+	
+		
+}
+.img {
+	
+	border: 20px;
+	width: 256px;
+	height: 256px;
+}
+.price {
+  color: #898070;
+  font-size: 16px;
+}
+
+.card button{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #CDC79B;
+  text-align: center;
+  cursor: pointer;
+  width: 60%;
+  font-size: 16px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+a:hover{
+  background-color: white;
+  color: #968B6B;
+}
+
+
+
+
